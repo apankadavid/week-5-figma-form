@@ -211,7 +211,7 @@ function App() {
       {/* Right: Desktop quote panel */}
       <aside className="hidden flex-col justify-center bg-gradient-to-br from-panelStart to-panelEnd p-12 lg:flex">
         <blockquote className="text-5xl font-bold leading-[72px] text-[#E4E4E4] xl:text-[64px] xl:leading-[96px]">
-          Creativity is intelligence having fun
+          “Creativity is intelligence having fun."
         </blockquote>
 
         <p className="mt-4 text-base text-white">
