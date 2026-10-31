@@ -22,6 +22,10 @@ A responsive sign-up form recreated from a Figma Community design using React, V
 - JavaScript
 - HTML
 
+## Design tokens
+
+All repeated colors and sizes live in `tailwind.config.js`: `primary`, `accent`, `muted`, `danger`, `panelStart`, `panelEnd`, and the `form` max width (400px).
+
 ## Getting Started
 
 To run the project locally:
@@ -54,7 +58,7 @@ The project follows the original Figma layout and colour scheme. The Location la
 
 ## Acknowledgements
 
-Design reference: Figma Community — Sign-up Form.
+Design reference: [Sign-up form (Figma Community)](https://www.figma.com/design/qXigmQDNySMZkGdrYP8JAC/Sign-up-form--Community-?node-id=4-18&t=95HAsu2Pce8rOHGK-4) by Oluyomi Flourish
 
 Original designer: [Oluyomi Flourish]
 
@@ -64,5 +68,5 @@ Apanka David
 
 ## Live site
 
-- Vercel:[https://week-5-figma-form-yz43.vercel.app/]
+- Vercel: [https://week-5-figma-form-yz43.vercel.app/](https://week-5-figma-form-yz43.vercel.app/)
 - GitHub Pages:[https://apankadavid.github.io/week-5-figma-form/]
