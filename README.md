@@ -2,6 +2,11 @@
 
 A responsive sign-up form recreated from a Figma Community design using React, Vite, and Tailwind CSS.
 
+## Live site
+
+- Vercel: [https://week-5-figma-form-yz43.vercel.app/](https://week-5-figma-form-yz43.vercel.app/)
+- GitHub Pages:[https://apankadavid.github.io/week-5-figma-form/]
+
 ## Features
 
 - Responsive layout for mobile and desktop screens.
@@ -20,7 +25,6 @@ A responsive sign-up form recreated from a Figma Community design using React, V
 - Vite
 - Tailwind CSS
 - JavaScript
-- HTML
 
 ## Design tokens
 
@@ -52,9 +56,12 @@ To test the error response for an already registered email, enter:
 
 For a successful test, use another valid email address and meet all the password requirements.
 
-## Design Notes
+## Design notes
 
-The project follows the original Figma layout and colour scheme. The Location label uses a darker text colour than the original reference to improve readability and contrast.
+- The two near-identical greys in the design (`#CCCCCC` and `#C4C4C4`) became one `muted` token.
+- The faint decorative background wave was left out.
+- The Location label is black, not grey, to improve readability.
+- `muted` text on white has low contrast, which comes from the original design. Error messages use a darker `danger` red instead.
 
 ## Acknowledgements
 
@@ -65,8 +72,3 @@ Original designer: [Oluyomi Flourish]
 ## Author
 
 Apanka David
-
-## Live site
-
-- Vercel: [https://week-5-figma-form-yz43.vercel.app/](https://week-5-figma-form-yz43.vercel.app/)
-- GitHub Pages:[https://apankadavid.github.io/week-5-figma-form/]
